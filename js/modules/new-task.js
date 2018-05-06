@@ -24,3 +24,16 @@ return (
             '</span>' + 
     '</div>');
         }
+
+
+// Add new task events
+
+function bindAddTaskEvents(){
+
+    //On submit
+    newTaskForm.addEventListener('submit', function(event){
+        event.preventDefault()
+        addNewTask('dfghj')
+    })
+
+}
